@@ -15,6 +15,6 @@ class DefaultController
      */
     public function healthcheck()
     {
-        return new JsonResponse('ok ok');
+        return new JsonResponse('ok nok ok');
     }
 }
